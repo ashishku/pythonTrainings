@@ -1,0 +1,32 @@
+<ng-include src="'app/partials/flyInControlls.html'"></ng-include>
+
+<header class="row ppt-banner">
+  <div class="col-sm-2 col-md-2 ppt-side-panel"></div>
+  <div class="col-sm-10 col-md-10 ppt-container">{{slide.title}}</div>
+</header>
+<div class="row ppt-content ppt-content-top">
+  <aside class="col-sm-2 col-md-2 ppt-side-panel"></aside>
+  <section class="col-sm-10 col-md-10 ppt-container">
+    {{slide.desc}}
+    <ul class="slide-bullets">
+      <li ng-repeat="point in slide.bullets">
+        <bullet-syntax text="{{point[0]}}"></bullet-syntax>
+        <ul class="slide-bullets-2">
+          <li ng-repeat="subPoint in point[1]">
+          <span class="animate-switch" ng-show="{{ctrl.isArray(subPoint)}}">
+            <bullet-syntax text="{{subPoint[0]}}"></bullet-syntax>
+            <ul class="slide-bullets-3">
+              <li ng-repeat="subPoint2 in subPoint[1]">
+                <bullet-syntax text="{{subPoint2}}"></bullet-syntax>
+              </li>
+            </ul>
+          </span>
+            <span class="animate-switch" ng-hide="{{ctrl.isArray(subPoint)}}">
+              <bullet-syntax text="{{subPoint}}"></bullet-syntax>
+            </span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</div>

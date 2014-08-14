@@ -1,0 +1,22 @@
+{
+  "id": "PY_005",
+  "title": "PEPs (Python Enhancement Proposals)",
+  "desc": "A design doc describing a new feature for Python / processes / environment.",
+  "bullets": [
+    [
+      "SYN_LNK##PEPs##http://legacy.python.org/dev/peps/",
+      [
+        [
+          "SYN_LNK##PEP 8##http://legacy.python.org/dev/peps/pep-0008/",
+          [
+            "Indentation",
+            "Tabs or Spaces",
+            "Maximum Line Length",
+            "Blank Lines"
+          ]
+        ],
+        "SYN_LNK##PEP 20##http://legacy.python.org/dev/peps/pep-0020/"
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,269 @@
+@import "variables.less";
+
+.ppt {
+  background-color: @ppt-bgColor;
+  min-height:       100%;
+  position:         absolute;
+  width:            100%;
+
+  header.ppt-banner {
+    position: absolute;
+    @media (max-height: 799px) {
+      top: unit(@ppt-bannerTop-margin-2, px);
+    }
+    top:      unit(@ppt-bannerTop-margin, px);
+    width:    100%;
+  }
+
+  footer.ppt-banner {
+    position: absolute;
+    bottom:   unit(@ppt-bannerBottom-margin, px);
+    width:    100%;
+
+    @media (max-height: 799px) {
+      bottom:           unit(@ppt-bannerBottom-margin-2, px);
+    }
+  }
+
+  .ppt-banner {
+    background-color: @ppt-banner-bgColor;
+
+    .ppt-side-panel {
+      background-color: @ppt-banner-sidePanel-bgColor;
+
+    }
+    .ppt-subscript {
+      font-family:   "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+      font-size:     .3em;
+      font-style:    italic;
+      height:        unit(@ppt-banner-height + 35, px);
+      line-height:   unit(@ppt-banner-height + 35, px);
+      padding-right: 35px;
+    }
+    .ppt-container {
+      font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+      font-size:   4em;
+      color:       @ppt-banner-mainContainer-color;
+      text-shadow: 4px 4px 2px @ppt-banner-mainContainer-shadow;
+      height:      unit(@ppt-banner-height, px);
+      line-height: unit(@ppt-banner-height, px);
+    }
+  }
+
+  .ppt-content.ppt-content-top {
+    @media (max-height: 799px) {
+      top:              unit(@ppt-mainContainerTop-margin, px);
+    }
+    top:      unit(@ppt-mainContainerTop-margin-2, px);
+    position: absolute;
+    width:    100%;
+  }
+
+  .ppt-content.ppt-content-bottom {
+    top:      unit(@ppt-mainContainerBottom-margin, px);
+    position: absolute;
+    width:    100%;
+
+    @media (max-height: 799px) {
+      top:              unit(@ppt-mainContainerBottom-margin-2, px);
+    }
+  }
+
+  .ppt-content {
+    .ppt-side-panel {
+    }
+
+    .ppt-container {
+      font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+      font-size:   1.5em;
+      color:       @ppt-mainContainer-color;
+
+      .ppt-list-content {
+        font-size:    .7em;
+        padding-left: 15px;
+
+        &::before {
+          content:       "\00bb";
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+
+  .ppt-side-panel {
+    min-height: 100px;
+  }
+
+  .ppt-container {
+    padding-left: 35px;
+  }
+}
+
+.hide-ppt-fly-in-controls{
+  display: none;
+}
+
+.ppt-fly-in-controls {
+  border-radius:    250px;
+  background-color: @ppt-fly-in-controls-bgColor;
+  color:            @ppt-fly-in-controls-color;
+  height:           1.25em;
+  line-height:      1.25em;
+  vertical-align:   middle;
+  font-size:        2.75em;
+  padding-left:     25px;
+  padding-right:    25px;
+  margin-top:       25px;
+  margin-right:     25px;
+
+  .text-as-link {
+    padding-right:    5px;
+    padding-left:     5px;
+    background-color: @ppt-fly-in-controls-bgColor;
+    color:            @ppt-fly-in-controls-color;
+    cursor:           pointer;
+
+    &:hover {
+      color:            lighten(@ppt-fly-in-controls-color, 85);
+      background-color: darken(@ppt-fly-in-controls-bgColor, 50);
+      text-decoration:  none;
+      cursor:           pointer;
+    }
+  }
+
+  .disable-link {
+    color:            darken(@ppt-fly-in-controls-color, 40);
+    background-color: @ppt-fly-in-controls-bgColor;
+    cursor:           not-allowed;
+
+    &:hover {
+      color:            darken(@ppt-fly-in-controls-color, 40);
+      background-color: @ppt-fly-in-controls-bgColor;
+      cursor:           not-allowed;
+    }
+  }
+
+  .fullscreen-ctrl {
+    font-size:      .75em;
+    vertical-align: text-bottom;
+  }
+  .link-separator {
+    font-size:      .6em;
+    vertical-align: text-bottom;
+    margin-right:   5px;
+    margin-left:    5px;
+  }
+  .slide-ctrl {
+    position: relative;
+
+    select {
+      width:                 150px;
+      padding:               2px 7px;
+      margin-top:            -7px;
+
+      font-size:             .45em;
+      line-height:           .45em;
+      vertical-align:        middle;
+      text-align:            center;
+
+      -webkit-border-radius: 4px;
+      -moz-border-radius:    4px;
+      border-radius:         4px;
+
+      border-color:          @ppt-fly-in-controls-bgColor;
+      color:                 @ppt-fly-in-controls-color;
+      background-color:      @ppt-fly-in-controls-bgColor;
+
+      display:               inline-block;
+
+      &:hover {
+        background-color: @ppt-fly-in-controls-color;
+        color:            @ppt-fly-in-controls-bgColor;
+      }
+    }
+  }
+}
+.agenda-bullets {
+  font-size:   1.5em;
+  line-height: 1.5em;
+  list-style-type: none;
+
+  &:before{
+    content: '\027a0';
+    color: @ppt-agenda-bullet-color;
+  }
+}
+
+.slide-bullets li {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  list-style-type: none;
+
+  &:before {
+    content: '\2910';
+    padding-right: 15px;
+    color: @ppt-slide-bullet-color;
+  }
+
+  .slide-bullets-2 li {
+    font-size: .85em;
+    line-height: 1.25em;
+    list-style-type: none;
+
+    &:before {
+      content: '\297d';
+      padding-right: 15px;
+      color: @ppt-slide-bullet-color;
+    }
+  }
+
+  .slide-bullets-3 li {
+    font-size: .75em;
+    line-height: 1.25em;
+    list-style-type: none;
+
+    &:before {
+      content: '\169a';
+      padding-right: 15px;
+      color: @ppt-slide-bullet-color;
+    }
+  }
+}
+
+.ppt.ng-enter,
+.ppt.ng-leave,
+.ppt.ng-move {
+  -webkit-transition: 1s linear all;
+  -moz-transition: 1s linear all;
+  -o-transition: 1s linear all;
+  transition: 1s linear all;
+}
+
+.ppt.ng-enter,
+.ppt.ng-move {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.ppt.ng-move.ng-move-active,
+.ppt.ng-enter.ng-enter-active {
+  opacity: 1;
+  height: 120px;
+}
+
+.ppt.ng-leave {
+  opacity: 1;
+  overflow: hidden;
+  -webkit-transition: 1s linear all;
+  -moz-transition: 1s linear all;
+  -o-transition: 1s linear all;
+  transition: 1s linear all;
+}
+
+.ppt.ng-leave.ng-leave-active {
+  opacity: 0;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}

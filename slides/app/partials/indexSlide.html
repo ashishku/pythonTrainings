@@ -1,0 +1,17 @@
+<header class="row ppt-banner">
+  <div class="col-sm-2 col-md-2 ppt-side-panel"></div>
+  <div class="col-sm-10 col-md-10 ppt-container">Trainings</div>
+</header>
+<div class="row ppt-content ppt-content-top">
+  <aside class="col-sm-2 col-md-2 ppt-side-panel"></aside>
+  <section class="col-sm-10 col-md-10 ppt-container">
+    <table class="table">
+      <tr ng-repeat="training in trainings">
+        <td>
+          <a ng-href="#/training/{{training.id}}">{{training.title}}</a>
+          <article class="ppt-list-content">{{training.by}} ({{training.lastUpdated}})</article>
+        </td>
+      </tr>
+    </table>
+  </section>
+</div>

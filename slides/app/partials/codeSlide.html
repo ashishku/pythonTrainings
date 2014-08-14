@@ -1,0 +1,14 @@
+<ng-include src="'app/partials/flyInControlls.html'"></ng-include>
+
+<header class="row ppt-banner">
+  <div class="col-sm-2 col-md-2 ppt-side-panel"></div>
+  <div class="col-sm-10 col-md-10 ppt-container">{{slide.title}}</div>
+</header>
+<div class="row ppt-content ppt-content-top">
+  <aside class="col-sm-2 col-md-2 ppt-side-panel"></aside>
+  <section class="col-sm-10 col-md-10 ppt-container">
+    {{slide.desc}}
+    <div hljs source="slide.code">
+    </div>
+  </section>
+</div>

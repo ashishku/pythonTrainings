@@ -1,0 +1,24 @@
+{
+  "id": "PY_006",
+  "title": "Data Types",
+  "bullets": [
+    [
+      "Scalar",
+      [
+        "int",
+        "float",
+        "None",
+        "bool"
+      ]
+    ],
+    [
+      "Collections",
+      [
+        "String",
+        "Bytes",
+        "Lists",
+        "Dictinoaries"
+      ]
+    ]
+  ]
+}

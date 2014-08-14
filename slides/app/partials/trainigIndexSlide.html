@@ -1,0 +1,17 @@
+<ng-include src="'app/partials/flyInControlls.html'"></ng-include>
+
+<div class="row ppt-content ppt-content-bottom">
+  <aside class="col-sm-2 col-md-2 ppt-side-panel"></aside>
+  <section class="col-sm-10 col-md-10 ppt-container">
+    <img ng-src="{{training.image}}">
+    <article class="ppt-list-content" ng-repeat="desc in training.description">{{desc}}</article>
+  </section>
+</div>
+
+<footer class="row ppt-banner">
+  <div class="col-sm-2 col-md-2 ppt-side-panel"></div>
+  <div class="col-sm-10 col-md-10 ppt-container">
+    {{training.title}}
+    <span class="pull-right ppt-subscript">by - {{training.by}}</span>
+  </div>
+</footer>

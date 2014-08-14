@@ -1,0 +1,5 @@
+{
+  "id": "PY_007",
+  "title": "Int",
+  "code": "def somefunc(param1='', param2=0):\nr'''A docstring'''\nif param1 > param2: # interesting\nprint 'Gre\\'ater'\nreturn (param2 - param1 + 1) or None\nclass SomeClass:\npass"
+}

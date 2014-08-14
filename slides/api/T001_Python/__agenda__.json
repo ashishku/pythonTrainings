@@ -1,0 +1,13 @@
+{
+  "id":     "__agenda__",
+  "title":  "Agenda",
+  "type":   "agenda",
+  "agenda": [
+    "Introduction to Python",
+    "Data Types",
+    "OOPS",
+    "Modules",
+    "Execptions",
+    "Debugging"
+  ]
+}

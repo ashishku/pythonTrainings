@@ -1,0 +1,45 @@
+{
+  "id":          "T001_Python",
+  "title":       "Beginning Python",
+  "by":          "Ashish Kumar",
+  "lastUpdated": "19 Aug 2014",
+  "description": ["Basic constructs of Python", "OOPs in Python"],
+  "image":       "api/T001_Python/imgs/python-logo.png",
+  "slides":      [
+    {
+      "id":    "PY_001",
+      "type":  "template",
+      "title": "Introduction"
+    },
+    {
+      "id":    "PY_002",
+      "type":  "template",
+      "title": "Python Timeline"
+    },
+    {
+      "id":    "PY_003",
+      "type":  "template",
+      "title": "Python Dialects/implementations"
+    },
+    {
+      "id":    "PY_004",
+      "type":  "subBullets",
+      "title": "REPL"
+    },
+    {
+      "id":    "PY_005",
+      "type":  "subBullets",
+      "title": "PEPs (Python Enhancement Proposals)"
+    },
+    {
+      "id":    "PY_006",
+      "type":  "subBullets",
+      "title": "Data Types"
+    },
+    {
+      "id":    "PY_007",
+      "type":  "code",
+      "title": "Int"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html data-ng-app="jsTraining">
+    <head lang="en">
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+      <title>Training</title>
+
+      <link rel="stylesheet" href="app/css/bootstrap/bootstrap.css"/>
+      <link rel="stylesheet" href="app/css/highlight/default.css"/>
+      <link rel="stylesheet" href="app/css/style.css"/>
+    </head>
+    <body ng-controller="MasterCtrl as mstr"
+          ng-mousemove="mstr.flyInControls()"
+          ng-keypress="mstr.flyInControls()"
+          hm-touch="mstr.flyInControls()">
+
+
+        <div data-ng-view class="container ppt"></div>
+
+        <script src="app/js/libs/highlight.pack.js"></script>
+
+        <script src="app/js/libs/angular/angular.js"></script>
+        <script src="app/js/libs/angular/angular-animate.min.js"></script>
+        <script src="app/js/libs/angular/angular-route.min.js"></script>
+        <script src="app/js/libs/angular/angular-resource.min.js"></script>
+
+        <script src="app/js/libs/gestures.min.js"></script>
+        <script src="app/js/libs/angular-highlightjs.js"></script>
+
+        <script src="app/js/app.js"></script>
+
+        <script src="app/js/services/TrainingsResources.js"></script>
+        <script src="app/js/services/Training.js"></script>
+
+        <script src="app/js/directives/PptFlyInControls.js"></script>
+        <script src="app/js/directives/BulletSyntax.js"></script>
+
+        <script src="app/js/controllers/MasterCtrl.js"></script>
+        <script src="app/js/controllers/IndexCtrl.js"></script>
+        <script src="app/js/controllers/TrainingCtrl.js"></script>
+        <script src="app/js/controllers/TemplateCtrl.js"></script>
+    </body>
+</html>

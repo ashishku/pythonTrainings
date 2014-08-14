@@ -1,0 +1,231 @@
+.ppt {
+  background-color: #d2d2d2;
+  min-height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.ppt header.ppt-banner {
+  position: absolute;
+  top: 75px;
+  width: 100%;
+}
+@media (max-height: 799px) {
+  .ppt header.ppt-banner {
+    top: 50px;
+  }
+}
+.ppt footer.ppt-banner {
+  position: absolute;
+  bottom: 200px;
+  width: 100%;
+}
+@media (max-height: 799px) {
+  .ppt footer.ppt-banner {
+    bottom: 100px;
+  }
+}
+.ppt .ppt-banner {
+  background-color: #3c57ff;
+}
+.ppt .ppt-banner .ppt-side-panel {
+  background-color: #2c2c2c;
+}
+.ppt .ppt-banner .ppt-subscript {
+  font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+  font-size: .3em;
+  font-style: italic;
+  height: 135px;
+  line-height: 135px;
+  padding-right: 35px;
+}
+.ppt .ppt-banner .ppt-container {
+  font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+  font-size: 4em;
+  color: #ffffff;
+  text-shadow: 4px 4px 2px #737373;
+  height: 100px;
+  line-height: 100px;
+}
+.ppt .ppt-content.ppt-content-top {
+  top: 250px;
+  position: absolute;
+  width: 100%;
+}
+@media (max-height: 799px) {
+  .ppt .ppt-content.ppt-content-top {
+    top: 175px;
+  }
+}
+.ppt .ppt-content.ppt-content-bottom {
+  top: 200px;
+  position: absolute;
+  width: 100%;
+}
+@media (max-height: 799px) {
+  .ppt .ppt-content.ppt-content-bottom {
+    top: 40px;
+  }
+}
+.ppt .ppt-content .ppt-container {
+  font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+  font-size: 1.5em;
+  color: #000000;
+}
+.ppt .ppt-content .ppt-container .ppt-list-content {
+  font-size: .7em;
+  padding-left: 15px;
+}
+.ppt .ppt-content .ppt-container .ppt-list-content::before {
+  content: "\00bb";
+  padding-right: 5px;
+}
+.ppt .ppt-side-panel {
+  min-height: 100px;
+}
+.ppt .ppt-container {
+  padding-left: 35px;
+}
+.hide-ppt-fly-in-controls {
+  display: none;
+}
+.ppt-fly-in-controls {
+  border-radius: 250px;
+  background-color: #131313;
+  color: #d2d2d2;
+  height: 1.25em;
+  line-height: 1.25em;
+  vertical-align: middle;
+  font-size: 2.75em;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+.ppt-fly-in-controls .text-as-link {
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: #131313;
+  color: #d2d2d2;
+  cursor: pointer;
+}
+.ppt-fly-in-controls .text-as-link:hover {
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ppt-fly-in-controls .disable-link {
+  color: #6c6c6c;
+  background-color: #131313;
+  cursor: not-allowed;
+}
+.ppt-fly-in-controls .disable-link:hover {
+  color: #6c6c6c;
+  background-color: #131313;
+  cursor: not-allowed;
+}
+.ppt-fly-in-controls .fullscreen-ctrl {
+  font-size: .75em;
+  vertical-align: text-bottom;
+}
+.ppt-fly-in-controls .link-separator {
+  font-size: .6em;
+  vertical-align: text-bottom;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.ppt-fly-in-controls .slide-ctrl {
+  position: relative;
+}
+.ppt-fly-in-controls .slide-ctrl select {
+  width: 150px;
+  padding: 2px 7px;
+  margin-top: -7px;
+  font-size: .45em;
+  line-height: .45em;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-color: #131313;
+  color: #d2d2d2;
+  background-color: #131313;
+  display: inline-block;
+}
+.ppt-fly-in-controls .slide-ctrl select:hover {
+  background-color: #d2d2d2;
+  color: #131313;
+}
+.agenda-bullets {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  list-style-type: none;
+}
+.agenda-bullets:before {
+  content: '\027a0';
+  color: #ff1342;
+}
+.slide-bullets li {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  list-style-type: none;
+}
+.slide-bullets li:before {
+  content: '\2910';
+  padding-right: 15px;
+  color: #0f4aff;
+}
+.slide-bullets li .slide-bullets-2 li {
+  font-size: .85em;
+  line-height: 1.25em;
+  list-style-type: none;
+}
+.slide-bullets li .slide-bullets-2 li:before {
+  content: '\297d';
+  padding-right: 15px;
+  color: #0f4aff;
+}
+.slide-bullets li .slide-bullets-3 li {
+  font-size: .75em;
+  line-height: 1.25em;
+  list-style-type: none;
+}
+.slide-bullets li .slide-bullets-3 li:before {
+  content: '\169a';
+  padding-right: 15px;
+  color: #0f4aff;
+}
+.ppt.ng-enter,
+.ppt.ng-leave,
+.ppt.ng-move {
+  -webkit-transition: 1s linear all;
+  -moz-transition: 1s linear all;
+  -o-transition: 1s linear all;
+  transition: 1s linear all;
+}
+.ppt.ng-enter,
+.ppt.ng-move {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+.ppt.ng-move.ng-move-active,
+.ppt.ng-enter.ng-enter-active {
+  opacity: 1;
+  height: 120px;
+}
+.ppt.ng-leave {
+  opacity: 1;
+  overflow: hidden;
+  -webkit-transition: 1s linear all;
+  -moz-transition: 1s linear all;
+  -o-transition: 1s linear all;
+  transition: 1s linear all;
+}
+.ppt.ng-leave.ng-leave-active {
+  opacity: 0;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}

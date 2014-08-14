@@ -1,0 +1,21 @@
+{
+  "id":       "PY_004",
+  "title":   "REPL(read–eval–print loop)",
+  "bullets": [
+    [
+      "Run following commads on terminal",
+      [
+        [
+          "python",
+          [
+            "print 'Hello World'",
+            "1 + 2",
+            "x = 12 * 2",
+            "print x"
+          ]
+        ],
+        "Repeate above with python3"
+      ]
+    ]
+  ]
+}
