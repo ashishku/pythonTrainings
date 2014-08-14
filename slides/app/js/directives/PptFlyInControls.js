@@ -26,28 +26,28 @@
       "<span class='text-as-link' ng-class='{\"disable-link\": !rightArrowShow}' ng-click='clickArrow(\"right\")'>&#xe4a2;</span>";
 
     return {
-      restrict:    "A",
+      restrict: "A",
       templateUrl: "app/partials/directives/pptFlyInControls.html",
-      scope:       {
-        leftArrowClick:  "&",
+      scope: {
+        leftArrowClick: "&",
         rightArrowClick: "&",
-        leftArrowShow:   "=",
-        rightArrowShow:  "=",
-        slidesList:      "=",
-        selectedSlide:   "="
+        leftArrowShow: "=",
+        rightArrowShow: "=",
+        slidesList: "=",
+        selectedSlide: "="
       },
-      link:        function (scope, elem) {
+      link: function (scope, elem) {
         angular.forEach(scope.slidesList, function (s) {
-          if( s.id === scope.selectedSlide.id) {
+          if (s.id === scope.selectedSlide.id) {
             scope.selectedSlide = s;
           }
         });
 
         scope.clickArrow = function (dir) {
-          if ( dir === "left" && scope.leftArrowShow ) {
+          if (dir === "left" && scope.leftArrowShow) {
             scope.leftArrowClick();
           }
-          else if ( dir === "right" && scope.rightArrowShow ) {
+          else if (dir === "right" && scope.rightArrowShow) {
             scope.rightArrowClick();
           }
         };
@@ -56,7 +56,7 @@
         scope.fullScreen = function () {
           scope.inFullScreenMode = !scope.inFullScreenMode;
 
-          if ( scope.inFullScreenMode ) {
+          if (scope.inFullScreenMode) {
             _enter($document.find("html")[0]);
           }
           else {
@@ -65,7 +65,7 @@
         };
 
         $document.on("webkitfullscreenchange mozfullscreenchange fullscreenchange", function () {
-          if ( !_isFullscreenActive() ) {
+          if (!_isFullscreenActive()) {
             scope.$apply(function () {
               scope.inFullScreenMode = false;
             });
@@ -73,7 +73,7 @@
         });
 
         scope.$on("flyInControls", function () {
-          if ( scope.timeoutControls ) {
+          if (scope.timeoutControls) {
             $timeout.cancel(scope.timeoutControls);
             scope.timeoutControls = undefined;
           }

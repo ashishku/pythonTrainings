@@ -1,0 +1,24 @@
+{
+  "id": "PY_008",
+  "title": "Floating point",
+  "bullets": [
+    [
+      "Precision",
+      [
+        "Floating-point numbers are implemented as C “doubles”",
+        "Therefore get as much precision as the C compiler used to build the Python interpreter gives to doubles."
+      ]
+    ],
+    [
+      "Operators",
+      [
+        [
+          "Add, Substract, Multiply, Divide",
+          [
+            "+, -, *, /"
+          ]
+        ]
+      ]
+    ]
+  ]
+}

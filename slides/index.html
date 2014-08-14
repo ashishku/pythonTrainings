@@ -11,9 +11,9 @@
       <link rel="stylesheet" href="app/css/style.css"/>
     </head>
     <body ng-controller="MasterCtrl as mstr"
-          ng-mousemove="mstr.flyInControls()"
-          ng-keypress="mstr.flyInControls()"
-          hm-touch="mstr.flyInControls()">
+          ng-mousemove="mstr.flyInControls($event)"
+          ng-keydown="mstr.flyInControls($event)">
+          <!--hm-touch="mstr.flyInControls()">-->
 
 
         <div data-ng-view class="container ppt"></div>
@@ -25,7 +25,7 @@
         <script src="app/js/libs/angular/angular-route.min.js"></script>
         <script src="app/js/libs/angular/angular-resource.min.js"></script>
 
-        <script src="app/js/libs/gestures.min.js"></script>
+        <!--<script src="app/js/libs/gestures.min.js"></script>-->
         <script src="app/js/libs/angular-highlightjs.js"></script>
 
         <script src="app/js/app.js"></script>

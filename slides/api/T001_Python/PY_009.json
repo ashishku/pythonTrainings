@@ -1,0 +1,16 @@
+{
+  "id": "PY_009",
+  "title": "None, Boolean",
+  "bullets": [
+    [
+      "None"
+    ],
+    [
+      "Boolean",
+      [
+        "True",
+        "False"
+      ]
+    ]
+  ]
+}

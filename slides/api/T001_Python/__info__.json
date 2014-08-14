@@ -38,6 +38,21 @@
     },
     {
       "id":    "PY_007",
+      "type":  "subBullets",
+      "title": "Integers"
+    },
+    {
+      "id":    "PY_008",
+      "type":  "subBullets",
+      "title": "Floating point"
+    },
+    {
+      "id":    "PY_009",
+      "type":  "subBullets",
+      "title": "None, Boolean"
+    },
+    {
+      "id":    "PY_010",
       "type":  "code",
       "title": "Int"
     }

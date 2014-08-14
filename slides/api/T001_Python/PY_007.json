@@ -1,5 +1,63 @@
 {
   "id": "PY_007",
-  "title": "Int",
-  "code": "def somefunc(param1='', param2=0):\nr'''A docstring'''\nif param1 > param2: # interesting\nprint 'Gre\\'ater'\nreturn (param2 - param1 + 1) or None\nclass SomeClass:\npass"
+  "title": "Integers",
+  "bullets": [
+    [
+      "Precision",
+      [
+        [
+          "Python2",
+          [
+            "int (32 bit)",
+            "long (unlimited precision)"
+          ]
+        ],
+        [
+          "Python3",
+          [
+            "int (unlimited precision)"
+          ]
+        ]
+      ]
+    ],
+    [
+      "Base",
+      [
+        [
+          "Decimal / Hexadecimal / Octal / Binary",
+          [
+            "15 / 0xF / 0o17 / 0b1111"
+          ]
+        ]
+      ]
+    ],
+    [
+      "Operators",
+      [
+        [
+          "Add, Substract, Multiply, Divide, Remainder",
+          [
+            "+, -, *, //, %"
+          ]
+        ]
+      ]
+    ],
+    [
+      "Imaginary & Complex",
+      [
+        [
+          "Imaginary",
+          [
+            "10j"
+          ]
+        ],
+        [
+          "Complex",
+          [
+            "20+10j"
+          ]
+        ]
+      ]
+    ]
+  ]
 }

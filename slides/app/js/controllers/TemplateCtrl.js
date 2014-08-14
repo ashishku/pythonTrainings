@@ -33,8 +33,32 @@
     this.previousSlide = function () {
       return Training.previousSlide();
     };
+
+    $scope.$on("nextSlide", this.nextSlide);
+    $scope.$on("previousSlide", this.previousSlide);
+
     this.isArray = function(ref) {
       return angular.isArray(ref);
+    };
+
+    this.code = function(code) {
+      var formattedCode;
+      if(angular.isArray(code)) {
+        code = code.map(function (v) {
+          if(/^\s+/.test(v)) {
+            return "... " + v;
+          }
+          else {
+            return ">>> " + v;
+          }
+        });
+        formattedCode = code.join("\n");
+      }
+      else {
+        formattedCode = ">>> " + code;
+      }
+
+      return formattedCode;
     };
   }]);
 })();

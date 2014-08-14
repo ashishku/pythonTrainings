@@ -5,7 +5,8 @@
 var jsTraining = (function (angular) {
   "use strict";
 
-  var jsTraining = angular.module("jsTraining", ["ngAnimate", "ngRoute", "ngResource", "angular-gestures", "hljs"]);
+//  var jsTraining = angular.module("jsTraining", ["ngAnimate", "ngRoute", "ngResource", "angular-gestures", "hljs"]);
+  var jsTraining = angular.module("jsTraining", ["ngAnimate", "ngRoute", "ngResource", "hljs"]);
   jsTraining.config(["hljsServiceProvider", "$routeProvider", function (hljsServiceProvider, $routeProvider) {
     hljsServiceProvider.setOptions({
       // replace tab with 4 spaces

@@ -24,5 +24,8 @@
     this.previousSlide = function () {
       return Training.previousSlide();
     };
+
+    $scope.$on("nextSlide", this.nextSlide);
+    $scope.$on("previousSlide", this.previousSlide);
   }]);
 })();
