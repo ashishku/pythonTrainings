@@ -1,0 +1,14 @@
+{
+  "id": "PY_011",
+  "title": "Conditinal Statement",
+  "code": [
+    "variable = 123",
+    "if variable > 100:",
+    "    print('variable is less tha 100')",
+    "elif variable < 200:",
+    "    print('variable is less tha 200')",
+    "else:",
+    "    print('out of range')",
+    ""
+  ]
+}

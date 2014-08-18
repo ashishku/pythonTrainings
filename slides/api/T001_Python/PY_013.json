@@ -1,0 +1,27 @@
+{
+  "id": "PY_013",
+  "title": "Strings",
+  "bullets": [
+    [
+      "immutable"
+    ],
+    [
+      "unicode",
+      [
+        "utf-8"
+      ]
+    ],
+    [
+      "universal newline"
+    ],
+    [
+      "quotes",
+      [
+        "single quotes",
+        "double quotes",
+        "triple quotes",
+        "no escape / raw string"
+      ]
+    ]
+  ]
+}

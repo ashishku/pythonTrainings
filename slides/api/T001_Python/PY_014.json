@@ -1,0 +1,21 @@
+{
+  "id": "PY_013",
+  "title": "bytes",
+  "bullets": [
+    [
+      "immutable"
+    ],
+    [
+      "sequence single bytes charecter encoding"
+    ],
+    [
+      "quotes",
+      [
+        "single quotes",
+        "double quotes",
+        "triple quotes",
+        "no escape / raw string"
+      ]
+    ]
+  ]
+}

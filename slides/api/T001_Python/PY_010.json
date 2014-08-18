@@ -1,20 +1,12 @@
 {
-  "id": "PY_009",
-  "title": "Int",
-  "code": [
-    "1 + 2",
-    "3",
-    "##########################",
-    "",
-    "import Math",
-    "Math.sqrt(4)",
-    "2",
-    "##########################",
-    "",
-    "def fun(x):",
-    "    return x * 10",
-    "",
-    "fun(10)",
-    "100"
+  "id": "PY_010",
+  "title": "Relational Operators",
+  "bullets": [
+    "==  &nbsp; equality / equivalence",
+    "!=  &nbsp; inequality / inequivalence",
+    "<  &nbsp; &nbsp; less than",
+    ">  &nbsp; &nbsp; greater than",
+    "<=  &nbsp; less than or equal",
+    ">=  &nbsp; greater than or equal"
   ]
 }

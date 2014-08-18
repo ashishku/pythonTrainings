@@ -53,8 +53,23 @@
     },
     {
       "id":    "PY_010",
+      "type":  "bullets",
+      "title": "Relational Operators"
+    },
+    {
+      "id":    "PY_011",
       "type":  "code",
-      "title": "Int"
+      "title": "Conditinal Statement"
+    },
+    {
+      "id":    "PY_012",
+      "type":  "code",
+      "title": "Loop Statement"
+    },
+    {
+      "id":    "PY_013",
+      "type":  "subBullets",
+      "title": "Strings"
     }
   ]
 }

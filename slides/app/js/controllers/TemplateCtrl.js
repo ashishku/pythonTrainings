@@ -44,18 +44,19 @@
     this.code = function(code) {
       var formattedCode;
       if(angular.isArray(code)) {
-        code = code.map(function (v) {
-          if(/^\s+/.test(v)) {
-            return "... " + v;
-          }
-          else {
-            return ">>> " + v;
-          }
-        });
+//        code = code.map(function (v) {
+//          if(/^\s+/.test(v)) {
+//            return "... " + v;
+//          }
+//          else {
+//            return ">>> " + v;
+//          }
+//        });
         formattedCode = code.join("\n");
       }
       else {
-        formattedCode = ">>> " + code;
+//        formattedCode = ">>> " + code;
+        formattedCode = code;
       }
 
       return formattedCode;
