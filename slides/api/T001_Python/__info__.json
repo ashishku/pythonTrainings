@@ -63,18 +63,28 @@
     },
     {
       "id":    "PY_012",
-      "type":  "code",
-      "title": "Loop Statement"
-    },
-    {
-      "id":    "PY_013",
       "type":  "subBullets",
       "title": "Strings"
     },
     {
-      "id":    "PY_014",
+      "id":    "PY_013",
       "type":  "subBullets",
       "title": "Bytes"
+    },
+    {
+      "id":    "PY_014",
+      "type":  "subBullets",
+      "title": "Lists and Dictonaries"
+    },
+    {
+      "id":    "PY_015",
+      "type":  "code",
+      "title": "Loop Statement"
+    },
+    {
+      "id":    "PY_016",
+      "type":  "code",
+      "title": "Functions"
     }
   ]
 }

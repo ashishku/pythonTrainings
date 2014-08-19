@@ -1,22 +1,30 @@
 {
   "id": "PY_013",
-  "title": "bytes",
+  "title": "Lists and Dictonaries",
   "bullets": [
     [
-      "immutable"
-    ],
-    [
-      "sequence single bytes charecter encoding"
-    ],
-    [
-      "quotes",
+      "list",
       [
-        "single quotes",
-        "double quotes"
+        "mutable"
+      ],
+      [
+        "sequence of objects"
+      ],
+      [
+        "heterogeneous"
       ]
     ],
     [
-      "Converting between Strings and Bytes"
+      "dict",
+      [
+        "mutable"
+      ],
+      [
+        "mapping of keys and values"
+      ],
+      [
+        "unordered"
+      ]
     ]
   ]
 }

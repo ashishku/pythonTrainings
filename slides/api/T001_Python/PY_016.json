@@ -1,0 +1,26 @@
+{
+  "id": "PY_012",
+  "title": "Functions",
+  "code": [
+    "def hello():",
+    "    print('Hello World')",
+    "",
+    "",
+    "def hello2(name):",
+    "    print('Hello ' + name)",
+    "",
+    "",
+    "def hello3(name='World'):",
+    "    print('Hello ' + name)",
+    "",
+    "",
+    "hello()",
+    "hello2()",
+    "hello3()",
+    "",
+    "hello('Ashish')",
+    "hello2('Ashish')",
+    "hello2('Ashish')",
+    ""
+  ]
+}

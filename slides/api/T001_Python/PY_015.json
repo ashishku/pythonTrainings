@@ -1,0 +1,16 @@
+{
+  "id": "PY_012",
+  "title": "Loop Statement",
+  "code": [
+    "counter = 5",
+    "while counter >= 0:",
+    "    print(counter)",
+    "    counter -= 1",
+    "",
+    "",
+    "for counter2 in range(5):",
+    "    print(counter2)",
+    "",
+    ""
+  ]
+}

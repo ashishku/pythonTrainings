@@ -1,27 +1,22 @@
 {
   "id": "PY_013",
-  "title": "Strings",
+  "title": "bytes",
   "bullets": [
     [
       "immutable"
     ],
     [
-      "unicode",
-      [
-        "utf-8"
-      ]
-    ],
-    [
-      "universal newline"
+      "sequence single bytes charecter encoding"
     ],
     [
       "quotes",
       [
         "single quotes",
-        "double quotes",
-        "triple quotes",
-        "no escape / raw string"
+        "double quotes"
       ]
+    ],
+    [
+      "Converting between Strings and Bytes"
     ]
   ]
 }
