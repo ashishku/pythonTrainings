@@ -12,10 +12,11 @@
       "quotes",
       [
         "single quotes",
-        "double quotes",
-        "triple quotes",
-        "no escape / raw string"
+        "double quotes"
       ]
+    ],
+    [
+      "Converting between Strings and Bytes"
     ]
   ]
 }
