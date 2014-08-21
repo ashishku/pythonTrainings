@@ -90,6 +90,16 @@
       "id":    "PY_017",
       "type":  "code",
       "title": "Modules"
+    },
+    {
+      "id":    "PY_018",
+      "type":  "bullets",
+      "title": "Revisit & Rethink"
+    },
+    {
+      "id":    "PY_019",
+      "type":  "bullets",
+      "title": "Variable Scopes"
     }
   ]
 }

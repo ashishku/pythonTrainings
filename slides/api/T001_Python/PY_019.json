@@ -1,0 +1,10 @@
+{
+  "id": "PY_019",
+  "title": "Variable Scopes",
+  "bullets": [
+    "Local",
+    "Enclosing",
+    "Global",
+    "Built-in"
+  ]
+}

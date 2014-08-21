@@ -1,0 +1,11 @@
+{
+  "id": "PY_018",
+  "title": "Revisit & Rethink",
+  "bullets": [
+    "Refrences",
+    "value equality vs identity",
+    "Pass by Object refrence",
+    "collections mathematics",
+    "Default Argument"
+  ]
+}
