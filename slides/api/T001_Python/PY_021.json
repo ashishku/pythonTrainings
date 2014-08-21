@@ -7,6 +7,6 @@
     "first, _, last = 'Ashish Kumar'.partition(' ')",
     "'{} {}'.format('Hello', 'World')",
     "'{1} {0}'.format('World', 'Hello')",
-    "'{greeting} {to}'.format(to='World', greeting='Hello')",
+    "'{greeting} {to}'.format(to='World', greeting='Hello')"
   ]
 }
