@@ -1,7 +1,19 @@
 {
   "id": "PY_014",
-  "title": "Lists and Dictonaries",
+  "title": "Tuple, Lists and Dictonaries",
   "bullets": [
+    [
+      "tuple"
+        [
+        "imutable"
+        ],
+      [
+        "sequence of objects"
+      ],
+      [
+        "heterogeneous"
+      ]
+    ],
     [
       "list",
       [

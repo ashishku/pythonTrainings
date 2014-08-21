@@ -1,0 +1,12 @@
+{
+  "id": "PY_020",
+  "title": "Collection operations",
+  "bullets": [
+    "+",
+    "*",
+    "len",
+    "in",
+    "not in",
+    "unpacking"
+  ]
+}

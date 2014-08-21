@@ -74,7 +74,7 @@
     {
       "id":    "PY_014",
       "type":  "subBullets",
-      "title": "Lists and Dictonaries"
+      "title": "Tuple, Lists and Dictonaries"
     },
     {
       "id":    "PY_015",
@@ -100,6 +100,16 @@
       "id":    "PY_019",
       "type":  "bullets",
       "title": "Variable Scopes"
+    },
+    {
+      "id":    "PY_020",
+      "type":  "subBullets",
+      "title": "Tuple"
+    },
+    {
+      "id":    "PY_021",
+      "type":  "code",
+      "title": "Strings"
     }
   ]
 }

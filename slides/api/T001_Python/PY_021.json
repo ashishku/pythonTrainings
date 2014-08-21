@@ -1,0 +1,10 @@
+{
+  "id": "PY_021",
+  "title": "Strings",
+  "code": [
+    "' '.join(['Ashish', 'Kumar'])",
+    "'Ashish Kumar'.split(' ')",
+    "first, _, last = 'Ashish Kumar'.partition(' ')",
+    "'Hello {}'.format('World')"
+  ]
+}
