@@ -3,39 +3,45 @@
   "title": "Tuple, Lists and Dictonaries",
   "bullets": [
     [
-      "tuple"
+      "tuple",
+      [
         [
-        "imutable"
+          "imutable"
         ],
-      [
-        "sequence of objects"
-      ],
-      [
-        "heterogeneous"
+        [
+          "sequence of objects"
+        ],
+        [
+          "heterogeneous"
+        ]
       ]
     ],
     [
       "list",
       [
-        "mutable"
-      ],
-      [
-        "sequence of objects"
-      ],
-      [
-        "heterogeneous"
+        [
+          "mutable"
+        ],
+        [
+          "sequence of objects"
+        ],
+        [
+          "heterogeneous"
+        ]
       ]
     ],
     [
       "dict",
       [
-        "mutable"
-      ],
-      [
-        "mapping of keys and values"
-      ],
-      [
-        "unordered"
+        [
+          "mutable"
+        ],
+        [
+          "mapping of keys and values"
+        ],
+        [
+          "unordered"
+        ]
       ]
     ]
   ]

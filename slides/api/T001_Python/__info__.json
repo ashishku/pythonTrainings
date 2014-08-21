@@ -103,7 +103,7 @@
     },
     {
       "id":    "PY_020",
-      "type":  "subBullets",
+      "type":  "bullets",
       "title": "Tuple"
     },
     {

@@ -5,6 +5,8 @@
     "' '.join(['Ashish', 'Kumar'])",
     "'Ashish Kumar'.split(' ')",
     "first, _, last = 'Ashish Kumar'.partition(' ')",
-    "'Hello {}'.format('World')"
+    "'{} {}'.format('Hello', 'World')",
+    "'{1} {0}'.format('World', 'Hello')",
+    "'{greeting} {to}'.format(to='World', greeting='Hello')",
   ]
 }
