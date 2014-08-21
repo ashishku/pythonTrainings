@@ -85,6 +85,11 @@
       "id":    "PY_016",
       "type":  "code",
       "title": "Functions"
+    },
+    {
+      "id":    "PY_017",
+      "type":  "code",
+      "title": "Modules"
     }
   ]
 }
