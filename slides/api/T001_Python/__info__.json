@@ -110,6 +110,16 @@
       "id":    "PY_021",
       "type":  "code",
       "title": "Strings"
+    },
+    {
+      "id":    "PY_022",
+      "type":  "code",
+      "title": "Range"
+    },
+    {
+      "id":    "PY_023",
+      "type":  "code",
+      "title": "List and Tuples"
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "PY_024",
+  "title": "methods & operators...",
+  "bullets": [
+    "index",
+    "count",
+    "in / not in",
+    "del",
+    "remove",
+    "insert",
+    "+ / += / extend",
+    "reverse/ reversed",
+    "sort / sorted"
+   ]
+}

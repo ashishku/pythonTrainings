@@ -1,0 +1,17 @@
+{
+  "id": "PY_023",
+  "title": "List and tuples",
+  "code": [
+    "collection = ['this', 'is', 'a', 'simple', 'list'] # or ('this', 'is', 'a', 'simple', 'list')",
+    "collection[1]",
+    "collection[-1]",
+    "collection[1:3]",
+    "collection[1:-1]",
+    "collection[1:3]",
+    "collection[1:]",
+    "collection[:-2]",
+    "collection2 = collection[:]",
+    "collection3 = collection.copy()",
+    "collection4 = list(collection) # or tuple(collection)"
+  ]
+}
