@@ -1,0 +1,12 @@
+{
+  "id": "PY_031",
+  "title": "Filtering Predicate",
+  "code": [
+    "from math import factorial",
+    "string = 'This is a simple string'",
+    "words = string.split()",
+    "d1 = {word:len(word) for word in words if len(word) >= 4}",
+    "print(d1)"
+   ]
+}
+

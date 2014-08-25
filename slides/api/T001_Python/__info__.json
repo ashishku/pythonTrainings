@@ -155,6 +155,11 @@
       "id":    "PY_030",
       "type":  "code",
       "title": "Comprihensions"
+    },
+    {
+      "id":    "PY_031",
+      "type":  "code",
+      "title": "Filtering Predicate"
     }
   ]
 }
