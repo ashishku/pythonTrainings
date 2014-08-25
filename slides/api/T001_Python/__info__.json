@@ -150,6 +150,11 @@
       "id":    "PY_029",
       "type":  "code",
       "title": "Exception"
+    },
+    {
+      "id":    "PY_030",
+      "type":  "code",
+      "title": "Comprihensions"
     }
   ]
 }

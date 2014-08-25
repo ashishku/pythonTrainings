@@ -1,0 +1,27 @@
+{
+  "id": "PY_030",
+  "title": "Comprihensions",
+  "code": [
+    "from math import factorial",
+    "string = 'This is a simple string'",
+    "words = string.split()",
+    "l1 = [len(word) for word in words]",
+    "print(l1)",
+    "",
+    "l2 = [factorial(x) for x in range(10)]",
+    "print(l2)",
+    "",
+    "s1 = {len(word) for word in words}",
+    "print(s1)",
+    "",
+    "s2 = {factorial(x) for x in range(10)}",
+    "print(s2)",
+    "",
+    "d1 = {word:len(word) for word in words}",
+    "print(d1)",
+    "",
+    "d2 = {x:factorial(x) for x in range(10)}",
+    "print(d2)"
+   ]
+}
+
