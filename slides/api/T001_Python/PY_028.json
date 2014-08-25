@@ -1,0 +1,15 @@
+{
+  "id": "PY_028",
+  "title": "Exceptions",
+  "bullets": [
+    "try",
+    "except",
+    "else",
+    "finally",
+    "raise",
+    "LBYL (Look Before You Leap)",
+    "EAFP (It's Eaiser to Ask Forgiveness than Permission)",
+    "use standard Exceptions"
+  ]
+}
+

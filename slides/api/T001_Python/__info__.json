@@ -140,6 +140,16 @@
       "id":    "PY_027",
       "type":  "template",
       "title": "Summary of collections"
+    },
+    {
+      "id":    "PY_028",
+      "type":  "bullets",
+      "title": "Exception"
+    },
+    {
+      "id":    "PY_029",
+      "type":  "code",
+      "title": "Exception"
     }
   ]
 }
