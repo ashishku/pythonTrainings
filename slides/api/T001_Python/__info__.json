@@ -160,6 +160,21 @@
       "id":    "PY_031",
       "type":  "code",
       "title": "Filtering Predicate"
+    },
+    {
+      "id":    "PY_032",
+      "type":  "code",
+      "title": "Iteration protocols"
+    },
+    {
+      "id": "PY_033",
+      "type": "bullets",
+      "title": "Genrators"
+    },
+    {
+      "id": "PY_034",
+      "type": "bullets",
+      "title": "HW"
     }
   ]
 }

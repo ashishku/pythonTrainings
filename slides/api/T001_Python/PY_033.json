@@ -1,0 +1,12 @@
+{
+  "id": "PY_033",
+  "title": "Genrators",
+  "bullets": [
+    "specify iterable sequence",
+    "are lazily evaluated",
+    "can model a infinite sequence",
+    "are composable into pipelines",
+    "yield"
+   ]
+}
+

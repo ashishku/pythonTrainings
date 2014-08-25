@@ -1,0 +1,16 @@
+{
+  "id": "PY_032",
+  "title": "Iteration protocols",
+  "code": [
+    "string = 'This is a simple string'",
+    "words = string.split()",
+    "w_iter = iter(words)",
+    "next(w_iter)",
+    "next(w_iter)",
+    "next(w_iter)",
+    "next(w_iter)",
+    "next(w_iter)",
+    "next(w_iter)"
+   ]
+}
+
