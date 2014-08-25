@@ -1,0 +1,15 @@
+{
+  "id": "PY_025",
+  "title": "dict",
+  "bullets": [
+    "keys must be immutable ",
+    "unordered",
+    "shallow copy (copy, dict)",
+    "keys",
+    "values",
+    "items",
+    "in, not in",
+    "del",
+    "pprint"
+   ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "PY_025",
+  "title": "set",
+  "bullets": [
+    "unordered collection",
+    "unique and immutable objects",
+    "used to remove duplicate values from list",
+    "in, not in",
+    "add, update",
+    "remove / discard",
+    "copy / set",
+    "union, intersection",
+    "diffrence, symmetric_diffrence",
+    "issubset / issuperset / isdisjoint"
+   ]
+}

@@ -120,6 +120,26 @@
       "id":    "PY_023",
       "type":  "code",
       "title": "List and Tuples"
+    },
+    {
+      "id":    "PY_024",
+      "type":  "bullets",
+      "title": "methods & operators..."
+    },
+    {
+      "id":    "PY_025",
+      "type":  "bullets",
+      "title": "dict"
+    },
+    {
+      "id":    "PY_026",
+      "type":  "bullets",
+      "title": "set"
+    },
+    {
+      "id":    "PY_027",
+      "type":  "template",
+      "title": "Summary of collections"
     }
   ]
 }
