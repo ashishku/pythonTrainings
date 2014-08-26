@@ -12,6 +12,7 @@ def outer():
         global len
         nonlocal a
         a += ' variable'
+        print(len(a))
     inner()
     print('a is', a)
     print(len(a))

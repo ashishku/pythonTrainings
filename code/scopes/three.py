@@ -6,3 +6,4 @@ def a_func():
 
 print(a_var, '[ a_var outside a_func() ]')
 a_func()
+print(a_var, '[2 a_var outside a_func() ]')
