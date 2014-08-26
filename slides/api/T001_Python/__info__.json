@@ -175,6 +175,16 @@
       "id": "PY_034",
       "type": "bullets",
       "title": "HW"
+    },
+    {
+      "id": "PY_035",
+      "type": "bullets",
+      "title": "Classes"
+    },
+    {
+      "id": "PY_036",
+      "type": "bullets",
+      "title": "Packages"
     }
   ]
 }
