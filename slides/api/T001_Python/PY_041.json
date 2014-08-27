@@ -1,0 +1,15 @@
+{
+  "id": "PY_041",
+  "title": "Lambda",
+  "code": [
+    "names = ['Stephanie Sasso', 'Eula Rancourt', 'Jessie Beckner', 'Lynell Providence', 'Micaela Kleinman']",
+    "",
+    "sorted(names)",
+    "",
+    "sorted(names, key=lambda name: name.split()[-1])",
+    "",
+    "last_name = lambda name: name.split()[-1]",
+    "sorted(names, key=last_name)"
+  ]
+}
+

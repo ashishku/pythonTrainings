@@ -1,0 +1,20 @@
+{
+  "id": "PY_040",
+  "title": "Callable Objects",
+  "code": [
+    "import time",
+    "class CachedFunction:",
+    "    def __init__(self):",
+    "        self._cache = {}",
+    "",
+    "    def __call__(self, var):",
+    "        if var not in self._cache:",
+    "            time.sleep(5)",
+    "        self._cache[var] = var * 2",
+    "        return self._cache[var]",
+    ""
+  ]
+}
+
+
+

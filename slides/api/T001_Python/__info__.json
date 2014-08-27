@@ -188,13 +188,33 @@
     },
     {
       "id": "PY_037",
-      "type": "code",
-      "title": "Callable Objects"
+      "type": "bullets",
+      "title": "Functions Revisited"
     },
     {
       "id": "PY_038",
       "type": "code",
+      "title": "Functions Revisited"
+    },
+    {
+      "id": "PY_039",
+      "type": "code",
+      "title": "Functions Revisited"
+    },
+    {
+      "id": "PY_040",
+      "type": "code",
+      "title": "Callable Objects"
+    },
+    {
+      "id": "PY_041",
+      "type": "code",
       "title": "Lammbda"
+    },
+    {
+      "id": "PY_042",
+      "type": "bullets",
+      "title": "Decorators"
     }
   ]
 }

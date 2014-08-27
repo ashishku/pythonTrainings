@@ -1,0 +1,10 @@
+{
+  "id": "PY_042",
+  "title": "Decorators",
+  "bullets": [
+    "modify or enhance functions without changeing their definitions",
+    "callables which take and return other callables",
+    "SYN_LNK##Refer Examples##https://github.com/ashishku/pythonTrainings/tree/master/code/decorators"
+   ]
+}
+

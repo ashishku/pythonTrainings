@@ -1,0 +1,13 @@
+{
+  "id": "PY_039",
+  "title": "Functions Revisited",
+  "code": [
+    "def some_function(a1, *a2, k1, **k2):",
+    "    print(a1)",
+    "    print(a2)",
+    "    print(k1)",
+    "    print(k2)",
+    ""
+  ]
+}
+
