@@ -185,6 +185,16 @@
       "id": "PY_036",
       "type": "bullets",
       "title": "Packages"
+    },
+    {
+      "id": "PY_037",
+      "type": "code",
+      "title": "Callable Objects"
+    },
+    {
+      "id": "PY_038",
+      "type": "code",
+      "title": "Lammbda"
     }
   ]
 }

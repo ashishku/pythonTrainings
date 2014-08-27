@@ -6,18 +6,18 @@ class Customer:
         self.name = name
         if accounts == None:
             accounts = dict()
-        self._accounts = accounts
+        self.__accounts = accounts
         
     def name(self):
         return self.name
     
     def accounts(self):
-        for ac in self._accounts:
-            print("{} => Rs {}".format(ac, self._accounts[ac].balance()))
+        for ac in self.__accounts:
+            print("{} => Rs {}".format(ac, self.__accounts[ac].balance()))
     
     def transfer(self, f, t, amount):
-        from_ac = self._accounts[f]
-        to_ac = self._accounts[t]
+        from_ac = self.__accounts[f]
+        to_ac = self.__accounts[t]
         from_ac.transfer(to_ac, amount)
 
 class Account:
