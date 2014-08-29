@@ -1,0 +1,12 @@
+{
+  "id": "PY_042",
+  "title": "Context-Manager",
+  "bullets": [
+    "with context-manager as x:  ... body",
+    "__enter__(self)",
+    "__exit__(self, exec_type, exc_val, exc_tb)",
+    "SYN_LNK##PEP 343 ##http://legacy.python.org/dev/peps/pep-0343/",
+    "SYN_LNK##Refer Examples##https://github.com/ashishku/pythonTrainings/tree/master/code/context-manager"
+   ]
+}
+
