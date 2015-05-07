@@ -19,6 +19,16 @@
           ]
         ]
       ]
+    ],
+    [
+      "Values",
+      [
+        "decimal values",
+        "scientific notations",
+        "nan",
+        "inf",
+        "-inf"
+      ]
     ]
   ]
 }
